@@ -26,3 +26,19 @@ body {
   font-size: 1.6rem; /* 16 pixels */
   -webkit-font-smoothing: antialiased;
 }
+
+.container {
+  max-width: 98rem;
+  margin: 0 auto;
+}
+
+.container--fluid {
+  max-width: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 3.2rem;
+}
